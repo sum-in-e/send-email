@@ -7,8 +7,8 @@ const sendEmail = async (html) => {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const mailInfo = {
-    from: "suminkim.me@gmail.com", // * 보내는 사람 메일 주소 (sendgrid에 추가한 이메일만 발신자로 지정 가능)
-    to: "qpdjdhkrha@naver.com", // * 받는 사람 메일 주소
+    from: "", // * 보내는 사람 메일 주소 (sendgrid에 추가한 이메일만 발신자로 지정 가능)
+    to: "", // * 받는 사람 메일 주소
     subject: "Sendgrid를 이용한 이메일 보내기 테스트",
     text: "Sendgrid를 이용한 이메일 보내기 테스트",
     html,
