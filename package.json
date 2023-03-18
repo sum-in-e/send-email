@@ -1,0 +1,16 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "sendgrid를 이용한 email 보내기",
+  "main": "index.js",
+  "author": "sumin",
+  "license": "MIT",
+  "scripts": {
+    "send": "node ./index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security"
+  }
+}
